@@ -1,1 +1,19 @@
-!
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Java Script Object</h1>
+    <h2>Creating empty object</h2>
+    <p id="demo"></p>
+    <script>
+        //Create an object:
+        const person ={};
+        // Add properties
+        person.firstname="";
+        person.lastname="";
+        person.age = 18
+        person.eyecolor="blue";
+        // Display Data from the object:
+        document.getElementByid("demo").innerHTML = person.Firstname + "is" + person.age + "years old.";
+    </script>
+</body>
+</html>
